@@ -1,2 +1,2 @@
 # RC2425
-Asignatura Representación del Conocimiento
+Ejercicios de Representación del Conocimiento
