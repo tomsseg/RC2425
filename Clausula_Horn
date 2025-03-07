@@ -1,0 +1,8 @@
+% Clausulas de Horn
+% a/\b -> c
+%  no es una clausula de horn
+% a -> b\/c
+
+hija(A,B) :- mujer(A), padre(B,A).
+
+% A es hija de B si A es mujer y B es padre de A
