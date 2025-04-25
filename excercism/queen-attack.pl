@@ -9,5 +9,5 @@ column((X,Y),(U,V));
 row((X,Y),(U,V)); 
 diagonal((X,Y),(U,V)).
 
-%Puedes cambiar los ; por , !; pero no entiendo muy bien como va
+% Puedes cambiar los ; por , !; pero no entiendo muy bien como va
 % Supuestamente ! elimina (poda) todas las alternativas de solución previas en la cláusula actual.
