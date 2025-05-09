@@ -1,0 +1,4 @@
+anchura([],[]).
+anchura([a(Et,ListaHijos)|Resto],[E|R]):-
+    append(Resto,ListaHijos,R)
+    anchura(R,R2).
