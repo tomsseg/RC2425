@@ -36,8 +36,11 @@ altura_ab(a(_,AI,AD),altura):-
 
 balanceado_ab([])
 balanceado_ab(a(_,AI,AD)):-
-	b	
-
-
-
-
+	comprueba altura(AI,hi),altura(AD,hd),
+ 	dif is hi - hd,
+ 	dif<2 , dif>-2.
+altura(nil,0).
+altura(a(_,ai,ad),h):-
+	altura(ai,hi), altura(ad,hd),
+ 	h is 1 + max(hi,hd).
+  
